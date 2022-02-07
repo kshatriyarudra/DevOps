@@ -1,0 +1,19 @@
+{
+    "details":{
+        "host":"http://10.0.25.190",
+        "port" : 9200,
+        "user":"elastic_read",
+        "passwd":"elastic_read",
+        "index" : "quest-staging-apache-accesslogs-*",
+        "start_date_time":"2022-02-07T00:07:01.000Z",
+        "end_date_time":"2022-02-07T01:00:00.000Z"
+    },
+    "other":{
+        "preprocessing_queue":[
+            "preprocessing.scale_and_center",
+            "preprocessing.dot_reduction",
+            "preprocessing.connect_lines"
+            ],
+        "use_anonymous":true
+    }
+}

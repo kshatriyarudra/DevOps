@@ -1,0 +1,26 @@
+﻿APIs,"API Average Response Time"
+"api/v1/teacher/group/7cbad150-229a-11ec-adb0-11edbee91f8a/subjects",49319
+"api/v1/student/submission/b4167ad0-8515-11ec-9df5-8167cca572e7/question/bdb15f00-5d70-11ec-8524-db8a493751e8",21248
+"api/v1/teacher/group/8a687920-84af-11ec-a087-3fe856e7fa12/subjects","20851.5"
+"api/v1/teacher/group/d51ceb00-7db8-11ec-b737-e974ae0cee1b/subjects",20489
+"api/v1/teacher/group/7c5ec1f0-d976-11eb-b83f-7120c1cb16f1/subjects","19057.5"
+"api/v1/teacher/group/102070e0-a383-11eb-b5e9-6b59b6dc72b1/subjects","18035.5"
+"api/v1/teacher/student/4955c3f0-9df7-11eb-8be5-c320d0ab70a9/badges","16770.2"
+"api/v1/teacher/group/02545400-e94a-11eb-bc35-c3796a5eb2d7/subjects",15927
+"api/v1/teacher/my-quest/3c0e6010-825b-11ec-af8a-7d4d18a971ff/submissions",15896
+"api/v1/teacher/group/bd8e4150-2a60-11ec-89b3-3ba4bc40935e/subjects",15091
+"api/v1/teacher/group/ac41f030-a382-11eb-821e-69f47b5220cd/subjects",15069
+"api/v1/teacher/my-quest/cd29f020-84a9-11ec-b3a3-3d1b6f386662/concepts",14423
+"api/v1/teacher/group/98ce9160-f9be-11eb-b61e-89ebf3b37d5e/subjects",14298
+"api/v1/teacher/group/25fb5b70-84ad-11ec-b5a8-912c8a7a2be2/subjects",13724
+"api/v1/student/submission/56b72a80-84b2-11ec-bf44-c9bf81b88085/question/3ad9e8e0-6142-11ec-b461-9754035d86d9",13215
+"api/v1/teacher/my-quest/80473890-8408-11ec-b16b-19b3a3488066/submissions",13205
+"api/v1/student/group/1da0eee0-4da8-11ec-878d-5db0dae92c0a","13067.2"
+"api/v1/school/set-key","12617.714285714286"
+"api/v1/student/group/d064cc50-4cdf-11ec-bc5a-77ac5ae340d4","12476.5"
+"api/v1/teacher/group/fb6e4a20-482e-11ec-8fd7-cb70c1ae71ae/subjects","12260.391304347826"
+"api/v1/teacher/my-quest/24957630-84a3-11ec-bb8e-f735fd3f5002/concepts","11907.666666666666"
+"api/v1/student/group/9f899080-4cdf-11ec-92c4-c7b9c75126ee","11693.4"
+"api/v1/teacher/my-quest/abaa3b10-84a2-11ec-86b8-77c8a2788329/concepts","11446.75"
+"api/v1/student/submission/c9338760-84aa-11ec-a72c-676c77e5b869/question/be3ca5f0-5d70-11ec-8729-7704bb88a101","11009.5"
+"api/v1/student/group/eb1e31f0-4cdf-11ec-bb15-49e0870ed170","10859.4"
