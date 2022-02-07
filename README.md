@@ -1,6 +1,10 @@
 About Task:
 
-1.Develop a module in Python to access Elastic Search DB and access the data for any particular hour and measure the count of documents in that hour.
+1.Develop a module in Python to access Elastic Search DB and access the data.
+
+a)For any particular hour measure the count of documents in that hour.
+
+b)For any response time measure the count of documents in that interval.
 
 2.Implement below things next :-
 
