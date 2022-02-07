@@ -1,10 +1,17 @@
 # Importing required library
-
+import logging
+import mailbox
 from elasticsearch import Elasticsearch
 import json
+import smtplib
 
+#configurating logging 
+logging.basicConfig(filename='data.log',format='%(asctime)s %(levelname)s-%(message)s')
+
+# Storing all details in a variable data from json file
 with open("cfg.json") as json_data_file:
-    data = json.load(json_data_file)
+    data = json.load(json_data_file) 
+
 
 # Give the elastic search address and authentication
 es = Elasticsearch([data['details']['host']], http_auth=(data['details']['user'], data['details']['passwd']))
@@ -61,6 +68,7 @@ for name in res:
         count_of_timestamp+=1
 print("Total counts in range of 1 hrs--")
 print(count_of_timestamp)
+logging.critical("Count for the documents in a hour is Done!!!")
 
 # this query is for counting the documents of response time(100<=response_time<=500) for response_code 500
 body1={
@@ -94,5 +102,35 @@ for name in res:
         count_of_response_time+=1
 print("Total Counts in range of 100<=response_time<=500--")
 print(count_of_response_time) 
+logging.critical("Count of documents in given range of response time is Done!!!")
+
+#defining a function for sending email
+
+# Creating SMTP Client Session
+smtpobj = smtplib.SMTP('smtp.gmail.com', 587)
+# start TLS for security which makes the connection more secure
+smtpobj.starttls()
+senderemail_id="rudra931592@gmail.com"
+senderemail_id_password="password"
+receiveremail_id="rudra@doremonlabs.com"
+# Authentication for signing to Gmail account
+smtpobj.login(senderemail_id, senderemail_id_password)
+# message to be sent
+message = """From: From Rudra <from@sendermail@gmail.com>
+To: To Person <to@receivermail@gmail.com>
+MIME-Version: 1.0
+Content-type: text/html
+Subject: Completion of all Tasks
+<h4>Hello sir,</h4>
+<p>Please find the below data for this tasks-</p>
+<p>Total number of documents in a hour is: {}.</p>
+""".format(count_of_timestamp)+"""<p>Total number of documents in given range of response time is: {}.</p>""".format(count_of_response_time)
+# sending the mail - passing 3 arguments i.e sender address, receiver address and the message
+smtpobj.sendmail(senderemail_id,receiveremail_id, message)
+# Hereby terminate the session
+smtpobj.quit()
+print(" mail send ")
+logging.critical('')
+
 
 
