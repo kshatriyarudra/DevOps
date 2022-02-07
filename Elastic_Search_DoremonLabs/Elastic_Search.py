@@ -1,6 +1,6 @@
 # Importing required library
+
 import logging
-import mailbox
 from elasticsearch import Elasticsearch
 import json
 import smtplib
@@ -124,7 +124,7 @@ Subject: Completion of all Tasks
 <h4>Hello sir,</h4>
 <p>Please find the below data for this tasks-</p>
 <p>Total number of documents in a hour is: {}.</p>
-""".format(count_of_timestamp)+"""<p>Total number of documents in given range of response time is: {}.</p>""".format(count_of_response_time)
+""".format(count_of_timestamp)+"""<p>Total number of documents in given range of response time is: {}.</p>""".format(count_of_response_time)+"<h3>Thanks and Regards</h3>"+"<p>Rudra Pratap Singh</p>"
 # sending the mail - passing 3 arguments i.e sender address, receiver address and the message
 smtpobj.sendmail(senderemail_id,receiveremail_id, message)
 # Hereby terminate the session

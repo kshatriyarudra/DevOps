@@ -7,7 +7,7 @@
         "passwd":"password",
         "index" : "quest-staging-apache-accesslogs-*",
         "start_date_time":"2022-02-07T00:00:00.000Z",
-        "end_date_time":"2022-02-07T00:10:00.000Z"
+        "end_date_time":"2022-02-07T01:00:00.000Z"
     },
     "other":{
         "preprocessing_queue":[
