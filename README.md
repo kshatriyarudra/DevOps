@@ -1,3 +1,5 @@
+This project is fully based on python activity.
+
 About Task:
 
 1.Develop a module in Python to access Elastic Search DB and access the data.
