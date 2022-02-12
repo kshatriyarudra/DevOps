@@ -14,7 +14,6 @@ a) Put below details in config file and import the config file.
 IP, Port,  Username, Password, Start date time, End date time, Index.
 
 b) Build a program to send email.
-You can copy paste these program from internet.
 You can create and use a fresh Gmail id for this.
 
 c) Send the Count calculated in above program via email.
