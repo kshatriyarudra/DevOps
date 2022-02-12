@@ -1,7 +1,5 @@
-import json
 
-with open("cfg.json") as json_data_file:
-    data = json.load(json_data_file)
+import config as cfg
 
 body={
         'query':{
@@ -14,8 +12,8 @@ body={
                 "filter":{
                     "range":{
                         "@timestamp":{
-                            "gte":data['details']['start_date_time'],
-                            "lte":data['details']['end_date_time']
+                            "gte":cfg.details['start_date_time'],
+                            "lte":cfg.details['end_date_time']
                         }
                     }
                 }
@@ -34,7 +32,7 @@ body1={
                 "filter":{
                     "range":{
                         "response_time":{
-                            "gte":400,
+                            "gte":100,
                             "lte":500
                         }
                     }

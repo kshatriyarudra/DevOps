@@ -1,57 +1,436 @@
-2022-02-12 09:20:42,378 ERROR-Error while fetching information of elastic search
+2022-02-12 19:53:01,625 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.168s]
+2022-02-12 19:53:01,715 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.090s]
+2022-02-12 19:53:01,716 CRITICAL-This will return index after searching
+2022-02-12 19:53:01,716 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 19:53:02,563 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.843s]
+2022-02-12 19:53:02,767 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.203s]
+2022-02-12 19:53:02,862 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.095s]
+2022-02-12 19:53:03,074 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.210s]
+2022-02-12 19:53:03,284 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.209s]
+2022-02-12 19:53:03,371 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.086s]
+2022-02-12 19:53:03,468 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.095s]
+2022-02-12 19:53:03,567 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.099s]
+2022-02-12 19:53:03,656 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.090s]
+2022-02-12 19:53:03,753 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.097s]
+2022-02-12 19:53:03,754 INFO-2022-02-09T04:59:14.000Z
+2022-02-12 19:53:03,754 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 19:53:03,755 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 19:53:03,755 INFO-2022-02-09T04:59:06.000Z
+2022-02-12 19:53:03,756 INFO-2022-02-09T04:59:11.000Z
+2022-02-12 19:53:03,756 INFO-2022-02-09T04:59:36.000Z
+2022-02-12 19:53:03,756 INFO-2022-02-09T04:59:44.000Z
+2022-02-12 19:53:03,852 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.095s]
+2022-02-12 19:53:03,942 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.090s]
+2022-02-12 19:53:03,942 INFO-Total counts in given range of time is--7
+2022-02-12 19:53:03,942 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 19:53:03,942 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 19:53:04,034 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.090s]
+2022-02-12 19:53:04,126 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.091s]
+2022-02-12 19:53:04,127 INFO-469
+2022-02-12 19:53:04,227 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.100s]
+2022-02-12 19:53:04,311 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.083s]
+2022-02-12 19:53:04,405 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.094s]
+2022-02-12 19:53:04,498 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.092s]
+2022-02-12 19:53:04,498 INFO-437
+2022-02-12 19:53:04,498 INFO-411
+2022-02-12 19:53:04,498 INFO-498
+2022-02-12 19:53:04,498 INFO-452
+2022-02-12 19:53:04,498 INFO-403
+2022-02-12 19:53:04,498 INFO-474
+2022-02-12 19:53:04,498 INFO-417
+2022-02-12 19:53:04,597 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.099s]
+2022-02-12 19:53:04,676 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.079s]
+2022-02-12 19:53:04,683 INFO-451
+2022-02-12 19:53:04,777 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.094s]
+2022-02-12 19:53:04,779 INFO-420
+2022-02-12 19:53:04,862 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.083s]
+2022-02-12 19:53:04,954 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.090s]
+2022-02-12 19:53:04,954 INFO-424
+2022-02-12 19:53:04,954 INFO-431
+2022-02-12 19:53:05,053 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.097s]
+2022-02-12 19:53:05,053 INFO-Total Counts in range of 400<=response_time<=500--12
+2022-02-12 19:53:05,054 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 19:53:05,054 WARNING-You are going to send email
+2022-02-12 19:53:08,465 ERROR-Error while sending email
 Traceback (most recent call last):
-  File "Elastic_Search.py", line 19, in <module>
-    es = Elasticsearch([data['details']['host']], http_auth=(data['details']['user'], data['details']['passwd']))
-KeyError: 'user'
-2022-02-12 09:21:02,863 INFO-Connection successfull!
-2022-02-12 09:21:03,043 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.181s]
-2022-02-12 09:21:03,138 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.094s]
-2022-02-12 09:21:03,964 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.817s]
-2022-02-12 09:21:04,169 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.205s]
-2022-02-12 09:21:04,284 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.114s]
-2022-02-12 09:21:04,384 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.100s]
-2022-02-12 09:21:04,479 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.094s]
-2022-02-12 09:21:04,589 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.110s]
-2022-02-12 09:21:04,700 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.111s]
-2022-02-12 09:21:04,809 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.109s]
-2022-02-12 09:21:04,902 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.093s]
-2022-02-12 09:21:05,075 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.172s]
-2022-02-12 09:21:05,192 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.116s]
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:14.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:41.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:41.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:06.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:11.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:36.000Z
-2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:44.000Z
-2022-02-12 09:21:05,350 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.158s]
-2022-02-12 09:21:05,350 INFO-Total counts in given range of time is--
-2022-02-12 09:21:05,350 INFO-7
-2022-02-12 09:21:05,350 CRITICAL-Count for the documents in given time interval is Done!!!
-2022-02-12 09:21:05,460 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.109s]
-2022-02-12 09:21:05,553 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.094s]
-2022-02-12 09:21:05,553 INFO-420
-2022-02-12 09:21:05,671 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.116s]
-2022-02-12 09:21:05,671 INFO-437
-2022-02-12 09:21:05,671 INFO-411
-2022-02-12 09:21:05,671 INFO-498
-2022-02-12 09:21:05,671 INFO-452
-2022-02-12 09:21:05,671 INFO-403
-2022-02-12 09:21:05,671 INFO-474
-2022-02-12 09:21:05,671 INFO-417
-2022-02-12 09:21:05,753 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.082s]
-2022-02-12 09:21:05,850 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.097s]
-2022-02-12 09:21:05,957 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.092s]
-2022-02-12 09:21:06,063 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.105s]
-2022-02-12 09:21:06,064 INFO-451
-2022-02-12 09:21:06,217 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.153s]
-2022-02-12 09:21:06,218 INFO-424
-2022-02-12 09:21:06,218 INFO-431
-2022-02-12 09:21:06,312 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.094s]
-2022-02-12 09:21:06,423 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.111s]
-2022-02-12 09:21:06,626 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.203s]
-2022-02-12 09:21:06,739 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.113s]
-2022-02-12 09:21:06,739 INFO-469
-2022-02-12 09:21:06,739 INFO-Total Counts in range of 400<=response_time<=500--
-2022-02-12 09:21:06,739 INFO-12
-2022-02-12 09:21:06,739 CRITICAL-Count of documents in given range of response time is Done!!!
+  File "Elastic_Search.py", line 101, in <module>
+    sending_email()
+  File "Elastic_Search.py", line 97, in sending_email
+    send_mail.send(total_count_of_timestamp,total_count_of_response_time)
+  File "C:\DoremonLabs\Elastic_Search_DoremonLabs\send_mail.py", line 22, in send
+    server.login(cfg.details["from_address"], cfg.details["email_password"])
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials pc18sm5299460pjb.20 - gsmtp')
+2022-02-12 19:55:00,303 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.266s]
+2022-02-12 19:55:00,396 INFO-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:200 request:0.092s]
+2022-02-12 19:55:00,396 CRITICAL-This will return index after searching
+2022-02-12 19:55:00,396 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 19:55:00,396 INFO-Total counts in given range of time is--0
+2022-02-12 19:55:00,396 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 19:55:00,396 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 19:55:00,396 INFO-Total Counts in range of 400<=response_time<=500--0
+2022-02-12 19:55:00,396 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 19:55:00,396 WARNING-You are going to send email
+2022-02-12 19:55:04,211 ERROR-Error while sending email
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 101, in <module>
+    sending_email()
+  File "Elastic_Search.py", line 97, in sending_email
+    send_mail.send(total_count_of_timestamp,total_count_of_response_time)
+  File "C:\DoremonLabs\Elastic_Search_DoremonLabs\send_mail.py", line 22, in send
+    server.login(cfg.details["from_address"], cfg.details["email_password"])
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials h25sm28358749pfn.208 - gsmtp')
+2022-02-12 20:08:35,546 WARNING-GET http://10.0.25.190:9200/ [status:401 request:7.466s]
+2022-02-12 20:08:39,331 WARNING-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:401 request:3.771s]
+2022-02-12 20:08:39,331 ERROR-Error occured while fetching index
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 28, in <module>
+    res=es.indices.get_alias(index=cfg.details['index'])
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\client\utils.py", line 347, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\client\indices.py", line 642, in get_alias
+    return self.transport.perform_request(
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\transport.py", line 466, in perform_request
+    raise e
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\transport.py", line 427, in perform_request
+    status, headers_response, data = connection.perform_request(
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\connection\http_urllib3.py", line 291, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "C:\Users\rudra\AppData\Local\Programs\Python\Python38-32\lib\site-packages\elasticsearch\connection\base.py", line 328, in _raise_error
+    raise HTTP_EXCEPTIONS.get(status_code, TransportError)(
+elasticsearch.exceptions.AuthenticationException: AuthenticationException(401, 'security_exception', 'unable to authenticate user [elastic_re] for REST request [/uest-staging-apache-accesslogs-*/_alias]')
+2022-02-12 20:08:39,347 CRITICAL-This will return index after searching
+2022-02-12 20:08:39,347 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:09:54,488 ERROR-Error while fetching information of elastic search
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 20, in <module>
+    es = Elasticsearch([cfg.details['hos']], http_auth=(cfg.details['user'], cfg.details['passwd']))
+KeyError: 'hos'
+2022-02-12 20:09:54,489 ERROR-Error occured while fetching index
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 28, in <module>
+    res=es.indices.get_alias(index=cfg.details['index'])
+NameError: name 'es' is not defined
+2022-02-12 20:09:54,489 CRITICAL-This will return index after searching
+2022-02-12 20:09:54,489 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:14:45,802 ERROR-Error while fetching information of elastic search
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 20, in <module>
+    es = Elasticsearch([cfg.details['hos']], http_auth=(cfg.details['user'], cfg.details['passwd']))
+KeyError: 'hos'
+2022-02-12 20:14:45,803 ERROR-Error occured while fetching index
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 28, in <module>
+    res=es.indices.get_alias(index=cfg.details['index'])
+NameError: name 'es' is not defined
+2022-02-12 20:14:45,803 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:14:45,803 ERROR-Error occured while calculating number of counts
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 86, in <module>
+    count_doc_in_time(res,query.body)
+NameError: name 'res' is not defined
+2022-02-12 20:14:45,803 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:14:45,804 ERROR-Error occured while calculating number of counts
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 94, in <module>
+    count_in_response_time(res,query.body1)
+NameError: name 'res' is not defined
+2022-02-12 20:14:45,804 WARNING-You are going to send email
+2022-02-12 20:16:19,942 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.265s]
+2022-02-12 20:16:20,035 INFO-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:200 request:0.089s]
+2022-02-12 20:16:20,036 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:16:20,036 INFO-Total counts in given range of time is--0
+2022-02-12 20:16:20,037 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:16:20,037 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:16:20,038 INFO-Total Counts in range of 400<=response_time<=500--0
+2022-02-12 20:16:20,039 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:16:20,039 WARNING-You are going to send email
+2022-02-12 20:19:08,159 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.152s]
+2022-02-12 20:19:08,252 INFO-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:200 request:0.089s]
+2022-02-12 20:19:08,253 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:19:08,253 INFO-Total counts in given range of time is--0
+2022-02-12 20:19:08,253 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:19:08,253 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:19:08,253 INFO-Total Counts in range of 400<=response_time<=500--0
+2022-02-12 20:19:08,253 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:19:08,253 WARNING-You are going to send email
+2022-02-12 20:20:32,619 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.213s]
+2022-02-12 20:20:32,707 INFO-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:200 request:0.088s]
+2022-02-12 20:20:32,707 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:20:32,707 INFO-Total counts in given range of time is--0
+2022-02-12 20:20:32,707 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:20:32,707 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:20:32,707 INFO-Total Counts in range of 400<=response_time<=500--0
+2022-02-12 20:20:32,707 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:20:32,707 WARNING-You are going to send email
+2022-02-12 20:23:08,408 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.160s]
+2022-02-12 20:23:08,508 INFO-GET http://10.0.25.190:9200/uest-staging-apache-accesslogs-*/_alias [status:200 request:0.091s]
+2022-02-12 20:23:08,509 ERROR-Error occured while fetching index
+NoneType: None
+2022-02-12 20:23:08,509 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:23:08,509 INFO-Total counts in given range of time is--0
+2022-02-12 20:23:08,509 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:23:08,509 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:23:08,509 INFO-Total Counts in range of 400<=response_time<=500--0
+2022-02-12 20:23:08,509 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:23:08,509 WARNING-You are going to send email
+2022-02-12 20:25:45,603 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.206s]
+2022-02-12 20:25:45,697 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.093s]
+2022-02-12 20:25:45,697 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:25:45,784 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.082s]
+2022-02-12 20:25:45,869 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.085s]
+2022-02-12 20:25:45,967 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.099s]
+2022-02-12 20:25:46,069 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.101s]
+2022-02-12 20:25:46,070 INFO-2022-02-09T04:59:14.000Z
+2022-02-12 20:25:46,070 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:25:46,070 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:25:46,070 INFO-2022-02-09T04:59:06.000Z
+2022-02-12 20:25:46,071 INFO-2022-02-09T04:59:11.000Z
+2022-02-12 20:25:46,071 INFO-2022-02-09T04:59:36.000Z
+2022-02-12 20:25:46,071 INFO-2022-02-09T04:59:44.000Z
+2022-02-12 20:25:46,280 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.209s]
+2022-02-12 20:25:46,374 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.094s]
+2022-02-12 20:25:46,477 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.101s]
+2022-02-12 20:25:46,564 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.082s]
+2022-02-12 20:25:46,657 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.092s]
+2022-02-12 20:25:46,791 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.133s]
+2022-02-12 20:25:47,519 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.725s]
+2022-02-12 20:25:47,629 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.110s]
+2022-02-12 20:25:47,631 INFO-Total counts in given range of time is--7
+2022-02-12 20:25:47,631 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:25:47,631 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:25:47,730 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.099s]
+2022-02-12 20:25:47,732 INFO-469
+2022-02-12 20:25:47,837 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.106s]
+2022-02-12 20:25:47,948 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.109s]
+2022-02-12 20:25:48,043 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.094s]
+2022-02-12 20:25:48,135 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.091s]
+2022-02-12 20:25:48,137 INFO-437
+2022-02-12 20:25:48,137 INFO-411
+2022-02-12 20:25:48,138 INFO-498
+2022-02-12 20:25:48,138 INFO-452
+2022-02-12 20:25:48,138 INFO-403
+2022-02-12 20:25:48,139 INFO-474
+2022-02-12 20:25:48,139 INFO-417
+2022-02-12 20:25:48,224 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.084s]
+2022-02-12 20:25:48,225 INFO-424
+2022-02-12 20:25:48,226 INFO-431
+2022-02-12 20:25:48,316 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.090s]
+2022-02-12 20:25:48,317 INFO-420
+2022-02-12 20:25:48,402 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.086s]
+2022-02-12 20:25:48,487 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.084s]
+2022-02-12 20:25:48,593 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.106s]
+2022-02-12 20:25:48,693 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.097s]
+2022-02-12 20:25:48,800 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.102s]
+2022-02-12 20:25:48,801 INFO-451
+2022-02-12 20:25:48,801 INFO-Total Counts in range of 400<=response_time<=500--12
+2022-02-12 20:25:48,802 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:25:48,802 WARNING-You are going to send email
+2022-02-12 20:27:01,662 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.208s]
+2022-02-12 20:27:01,788 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.126s]
+2022-02-12 20:27:01,788 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:27:02,978 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:1.186s]
+2022-02-12 20:27:02,978 ERROR-Error occured while calculating number of counts
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 85, in <module>
+    count_doc_in_time(res,query.body)
+  File "Elastic_Search.py", line 52, in count_doc_in_time
+    for data_timestamp in data['hit']['hits']:
+KeyError: 'hit'
+2022-02-12 20:27:02,978 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:27:03,078 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.100s]
+2022-02-12 20:27:03,285 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.206s]
+2022-02-12 20:27:03,286 INFO-424
+2022-02-12 20:27:03,286 INFO-431
+2022-02-12 20:27:03,372 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.085s]
+2022-02-12 20:27:03,467 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.095s]
+2022-02-12 20:27:03,568 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.100s]
+2022-02-12 20:27:03,667 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.098s]
+2022-02-12 20:27:03,763 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.095s]
+2022-02-12 20:27:03,764 INFO-420
+2022-02-12 20:27:03,863 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.099s]
+2022-02-12 20:27:03,863 INFO-437
+2022-02-12 20:27:03,863 INFO-411
+2022-02-12 20:27:03,863 INFO-498
+2022-02-12 20:27:03,867 INFO-452
+2022-02-12 20:27:03,867 INFO-403
+2022-02-12 20:27:03,867 INFO-474
+2022-02-12 20:27:03,867 INFO-417
+2022-02-12 20:27:03,973 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.105s]
+2022-02-12 20:27:04,071 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.098s]
+2022-02-12 20:27:04,071 INFO-451
+2022-02-12 20:27:04,194 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.124s]
+2022-02-12 20:27:04,195 INFO-469
+2022-02-12 20:27:04,288 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.093s]
+2022-02-12 20:27:04,289 INFO-Total Counts in range of 400<=response_time<=500--12
+2022-02-12 20:27:04,289 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:27:04,289 WARNING-You are going to send email
+2022-02-12 20:36:46,318 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.268s]
+2022-02-12 20:36:46,397 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.073s]
+2022-02-12 20:36:46,397 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:36:47,600 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:1.196s]
+2022-02-12 20:36:47,705 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.105s]
+2022-02-12 20:36:47,805 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.100s]
+2022-02-12 20:36:47,905 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.099s]
+2022-02-12 20:36:47,995 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.089s]
+2022-02-12 20:36:48,116 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.120s]
+2022-02-12 20:36:48,220 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.103s]
+2022-02-12 20:36:48,301 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.081s]
+2022-02-12 20:36:48,385 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.084s]
+2022-02-12 20:36:48,530 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.144s]
+2022-02-12 20:36:48,669 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.139s]
+2022-02-12 20:36:48,792 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.123s]
+2022-02-12 20:36:48,794 INFO-2022-02-09T04:59:14.000Z
+2022-02-12 20:36:48,794 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:36:48,794 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:36:48,795 INFO-2022-02-09T04:59:06.000Z
+2022-02-12 20:36:48,795 INFO-2022-02-09T04:59:11.000Z
+2022-02-12 20:36:48,796 INFO-2022-02-09T04:59:36.000Z
+2022-02-12 20:36:48,796 INFO-2022-02-09T04:59:44.000Z
+2022-02-12 20:36:48,796 INFO-Total counts in given range of time is--7
+2022-02-12 20:36:48,797 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:36:48,797 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:36:48,896 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.100s]
+2022-02-12 20:36:49,002 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.104s]
+2022-02-12 20:36:49,003 INFO-424
+2022-02-12 20:36:49,003 INFO-431
+2022-02-12 20:36:49,107 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.105s]
+2022-02-12 20:36:49,109 INFO-469
+2022-02-12 20:36:49,197 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.086s]
+2022-02-12 20:36:49,294 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.096s]
+2022-02-12 20:36:49,295 INFO-437
+2022-02-12 20:36:49,296 INFO-411
+2022-02-12 20:36:49,297 INFO-498
+2022-02-12 20:36:49,297 INFO-452
+2022-02-12 20:36:49,297 INFO-403
+2022-02-12 20:36:49,297 INFO-474
+2022-02-12 20:36:49,298 INFO-417
+2022-02-12 20:36:49,400 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.102s]
+2022-02-12 20:36:49,506 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.106s]
+2022-02-12 20:36:49,507 INFO-451
+2022-02-12 20:36:49,596 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.088s]
+2022-02-12 20:36:49,683 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.087s]
+2022-02-12 20:36:49,787 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.104s]
+2022-02-12 20:36:49,892 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.105s]
+2022-02-12 20:36:49,893 INFO-420
+2022-02-12 20:36:50,034 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.140s]
+2022-02-12 20:36:50,034 INFO-Total Counts in range of 400<=response_time<=500--12
+2022-02-12 20:36:50,034 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:36:50,034 WARNING-You are going to send email
+2022-02-12 20:38:31,876 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.254s]
+2022-02-12 20:38:31,959 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.080s]
+2022-02-12 20:38:31,959 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 20:38:32,063 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.099s]
+2022-02-12 20:38:32,149 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.087s]
+2022-02-12 20:38:32,232 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.082s]
+2022-02-12 20:38:32,334 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.102s]
+2022-02-12 20:38:32,335 INFO-2022-02-09T04:59:14.000Z
+2022-02-12 20:38:32,335 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:38:32,335 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 20:38:32,335 INFO-2022-02-09T04:59:06.000Z
+2022-02-12 20:38:32,335 INFO-2022-02-09T04:59:11.000Z
+2022-02-12 20:38:32,337 INFO-2022-02-09T04:59:36.000Z
+2022-02-12 20:38:32,338 INFO-2022-02-09T04:59:44.000Z
+2022-02-12 20:38:32,480 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.143s]
+2022-02-12 20:38:32,572 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.085s]
+2022-02-12 20:38:32,677 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.104s]
+2022-02-12 20:38:32,776 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.098s]
+2022-02-12 20:38:33,459 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.682s]
+2022-02-12 20:38:33,555 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.095s]
+2022-02-12 20:38:33,650 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.095s]
+2022-02-12 20:38:33,963 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.314s]
+2022-02-12 20:38:33,963 INFO-Total counts in given range of time is--7
+2022-02-12 20:38:33,963 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 20:38:33,963 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 20:38:34,072 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.109s]
+2022-02-12 20:38:34,189 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.116s]
+2022-02-12 20:38:34,330 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.141s]
+2022-02-12 20:38:34,330 INFO-451
+2022-02-12 20:38:34,415 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.085s]
+2022-02-12 20:38:34,521 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.107s]
+2022-02-12 20:38:34,522 INFO-424
+2022-02-12 20:38:34,522 INFO-431
+2022-02-12 20:38:34,606 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.083s]
+2022-02-12 20:38:34,606 INFO-469
+2022-02-12 20:38:34,702 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.095s]
+2022-02-12 20:38:34,703 INFO-437
+2022-02-12 20:38:34,703 INFO-411
+2022-02-12 20:38:34,703 INFO-498
+2022-02-12 20:38:34,703 INFO-452
+2022-02-12 20:38:34,703 INFO-403
+2022-02-12 20:38:34,703 INFO-474
+2022-02-12 20:38:34,703 INFO-417
+2022-02-12 20:38:34,850 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.146s]
+2022-02-12 20:38:34,935 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.085s]
+2022-02-12 20:38:35,021 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.085s]
+2022-02-12 20:38:35,021 INFO-420
+2022-02-12 20:38:35,135 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.114s]
+2022-02-12 20:38:35,225 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.090s]
+2022-02-12 20:38:35,225 INFO-Total Counts in range of 400<=response_time<=500--12
+2022-02-12 20:38:35,225 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 20:38:35,225 WARNING-You are going to send email
+2022-02-12 21:52:32,101 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.668s]
+2022-02-12 21:52:32,361 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.258s]
+2022-02-12 21:52:32,361 WARNING-You are going to calculate the number of documents in given interval of time
+2022-02-12 21:52:33,130 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.756s]
+2022-02-12 21:52:33,394 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.261s]
+2022-02-12 21:52:33,555 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.160s]
+2022-02-12 21:52:33,741 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.187s]
+2022-02-12 21:52:34,452 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.710s]
+2022-02-12 21:52:34,836 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.384s]
+2022-02-12 21:52:34,935 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.099s]
+2022-02-12 21:52:35,390 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.454s]
+2022-02-12 21:52:35,390 INFO-2022-02-12T04:59:41.000Z
+2022-02-12 21:52:35,390 INFO-2022-02-12T04:59:54.000Z
+2022-02-12 21:52:35,390 INFO-2022-02-12T04:59:54.000Z
+2022-02-12 21:52:35,390 INFO-2022-02-12T04:59:54.000Z
+2022-02-12 21:52:36,408 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:1.018s]
+2022-02-12 21:52:36,755 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.347s]
+2022-02-12 21:52:37,110 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.354s]
+2022-02-12 21:52:37,248 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.137s]
+2022-02-12 21:52:37,248 INFO-Total counts in given range of time is--4
+2022-02-12 21:52:37,248 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 21:52:37,248 WARNING-You are going to calculate number of documents in given response time
+2022-02-12 21:52:37,373 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.125s]
+2022-02-12 21:52:37,373 INFO-437
+2022-02-12 21:52:37,374 INFO-411
+2022-02-12 21:52:37,374 INFO-498
+2022-02-12 21:52:37,374 INFO-389
+2022-02-12 21:52:37,375 INFO-452
+2022-02-12 21:52:37,375 INFO-403
+2022-02-12 21:52:37,375 INFO-474
+2022-02-12 21:52:37,375 INFO-417
+2022-02-12 21:52:37,375 INFO-355
+2022-02-12 21:52:37,533 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.158s]
+2022-02-12 21:52:37,533 INFO-469
+2022-02-12 21:52:37,669 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.135s]
+2022-02-12 21:52:37,862 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.193s]
+2022-02-12 21:52:38,518 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.655s]
+2022-02-12 21:52:38,732 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.213s]
+2022-02-12 21:52:38,850 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.118s]
+2022-02-12 21:52:38,850 INFO-420
+2022-02-12 21:52:38,982 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.132s]
+2022-02-12 21:52:39,096 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.113s]
+2022-02-12 21:52:39,097 INFO-424
+2022-02-12 21:52:39,098 INFO-431
+2022-02-12 21:52:39,344 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.245s]
+2022-02-12 21:52:39,347 INFO-399
+2022-02-12 21:52:39,347 INFO-392
+2022-02-12 21:52:39,348 INFO-389
+2022-02-12 21:52:39,348 INFO-451
+2022-02-12 21:52:39,463 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.115s]
+2022-02-12 21:52:39,585 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.121s]
+2022-02-12 21:52:39,587 INFO-Total Counts in range of 400<=response_time<=500--17
+2022-02-12 21:52:39,587 CRITICAL-Count of documents in given range of response time is Done!!!
+2022-02-12 21:52:39,587 WARNING-You are going to send email
