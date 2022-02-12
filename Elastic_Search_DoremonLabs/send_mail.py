@@ -1,6 +1,8 @@
 import csv, smtplib, ssl
+import logging
 
-message = """Subject: Completion of Tasks.
+message = """Subject: Count details from ELK.
+To: {}
 Hello {},
 
 
@@ -8,9 +10,9 @@ Total number of documents in given range of time is- {}
 Total number of documents in given range of response time is- {}
 
 Thanks and Regards
-Rudra Pratap Singh"""
+ELK Python Automation"""
 from_address = "rudra931592@gmail.com"
-password = "#####"
+password = "####"
 
 context = ssl.create_default_context()
 def send(count_of_timestamp,count_of_response_time):
@@ -23,6 +25,5 @@ def send(count_of_timestamp,count_of_response_time):
                 server.sendmail(
                     from_address,
                     email,
-                    message.format(name,count_of_timestamp,count_of_response_time),
+                    message.format(name,name,count_of_timestamp,count_of_response_time),
                 )
-                print("email send to {}".format(name))

@@ -1,36 +1,57 @@
-2022-02-10 20:24:07,916 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:24:08,878 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:24:16,248 CRITICAL-
-2022-02-10 20:30:32,524 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:30:33,605 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:30:40,968 CRITICAL-
-2022-02-10 20:32:08,514 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:32:09,698 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:32:15,543 CRITICAL-
-2022-02-10 20:34:44,158 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:34:45,393 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:34:51,700 CRITICAL-
-2022-02-10 20:35:16,104 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:35:17,234 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:35:23,077 CRITICAL-
-2022-02-10 20:36:52,252 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:36:53,398 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:36:59,741 CRITICAL-
-2022-02-10 20:37:17,971 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:37:19,085 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:37:25,330 CRITICAL-
-2022-02-10 20:37:49,332 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:37:50,440 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:37:55,346 CRITICAL-
-2022-02-10 20:40:31,084 CRITICAL-Count for the documents in a hour is Done!!!
-2022-02-10 20:40:32,247 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:40:37,646 CRITICAL-
-2022-02-10 20:41:46,057 CRITICAL-Count for the documents in given time interval is Done!!!
-2022-02-10 20:41:47,041 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:41:52,529 CRITICAL-
-2022-02-10 20:42:45,000 CRITICAL-Count for the documents in given time interval is Done!!!
-2022-02-10 20:42:46,149 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:42:50,855 CRITICAL-
-2022-02-10 20:45:15,677 CRITICAL-Count for the documents in given time interval is Done!!!
-2022-02-10 20:45:16,777 CRITICAL-Count of documents in given range of response time is Done!!!
-2022-02-10 20:45:24,880 CRITICAL-
+2022-02-12 09:20:42,378 ERROR-Error while fetching information of elastic search
+Traceback (most recent call last):
+  File "Elastic_Search.py", line 19, in <module>
+    es = Elasticsearch([data['details']['host']], http_auth=(data['details']['user'], data['details']['passwd']))
+KeyError: 'user'
+2022-02-12 09:21:02,863 INFO-Connection successfull!
+2022-02-12 09:21:03,043 INFO-GET http://10.0.25.190:9200/ [status:200 request:0.181s]
+2022-02-12 09:21:03,138 INFO-GET http://10.0.25.190:9200/quest-staging-apache-accesslogs-*/_alias [status:200 request:0.094s]
+2022-02-12 09:21:03,964 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.817s]
+2022-02-12 09:21:04,169 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.205s]
+2022-02-12 09:21:04,284 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.114s]
+2022-02-12 09:21:04,384 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.100s]
+2022-02-12 09:21:04,479 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.094s]
+2022-02-12 09:21:04,589 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.110s]
+2022-02-12 09:21:04,700 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.111s]
+2022-02-12 09:21:04,809 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.109s]
+2022-02-12 09:21:04,902 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.093s]
+2022-02-12 09:21:05,075 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.172s]
+2022-02-12 09:21:05,192 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.116s]
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:14.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:41.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:06.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:11.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:36.000Z
+2022-02-12 09:21:05,192 INFO-2022-02-09T04:59:44.000Z
+2022-02-12 09:21:05,350 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.158s]
+2022-02-12 09:21:05,350 INFO-Total counts in given range of time is--
+2022-02-12 09:21:05,350 INFO-7
+2022-02-12 09:21:05,350 CRITICAL-Count for the documents in given time interval is Done!!!
+2022-02-12 09:21:05,460 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.12/_search [status:200 request:0.109s]
+2022-02-12 09:21:05,553 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.01/_search [status:200 request:0.094s]
+2022-02-12 09:21:05,553 INFO-420
+2022-02-12 09:21:05,671 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.10/_search [status:200 request:0.116s]
+2022-02-12 09:21:05,671 INFO-437
+2022-02-12 09:21:05,671 INFO-411
+2022-02-12 09:21:05,671 INFO-498
+2022-02-12 09:21:05,671 INFO-452
+2022-02-12 09:21:05,671 INFO-403
+2022-02-12 09:21:05,671 INFO-474
+2022-02-12 09:21:05,671 INFO-417
+2022-02-12 09:21:05,753 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.08/_search [status:200 request:0.082s]
+2022-02-12 09:21:05,850 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.05/_search [status:200 request:0.097s]
+2022-02-12 09:21:05,957 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.11/_search [status:200 request:0.092s]
+2022-02-12 09:21:06,063 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.02/_search [status:200 request:0.105s]
+2022-02-12 09:21:06,064 INFO-451
+2022-02-12 09:21:06,217 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.03/_search [status:200 request:0.153s]
+2022-02-12 09:21:06,218 INFO-424
+2022-02-12 09:21:06,218 INFO-431
+2022-02-12 09:21:06,312 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.06/_search [status:200 request:0.094s]
+2022-02-12 09:21:06,423 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.07/_search [status:200 request:0.111s]
+2022-02-12 09:21:06,626 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.09/_search [status:200 request:0.203s]
+2022-02-12 09:21:06,739 INFO-POST http://10.0.25.190:9200/quest-staging-apache-accesslogs-2022.02.04/_search [status:200 request:0.113s]
+2022-02-12 09:21:06,739 INFO-469
+2022-02-12 09:21:06,739 INFO-Total Counts in range of 400<=response_time<=500--
+2022-02-12 09:21:06,739 INFO-12
+2022-02-12 09:21:06,739 CRITICAL-Count of documents in given range of response time is Done!!!
