@@ -1,0 +1,5 @@
+install virtual environment: 'python -m venv venv'
+
+install elastic search: 'pip install elasticsearch'
+
+install logging: 'pip install logging'
