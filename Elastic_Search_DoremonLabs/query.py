@@ -12,8 +12,8 @@ body={
                 "filter":{
                     "range":{
                         "@timestamp":{
-                            "gte":cfg.details['start_date_time'],
-                            "lte":cfg.details['end_date_time']
+                            "gte":cfg.elastic_search['start_date_time'],
+                            "lte":cfg.elastic_search['end_date_time']
                         }
                     }
                 }
@@ -34,6 +34,14 @@ body1={
                         "response_time":{
                             "gte":100,
                             "lte":500
+                        }
+                    }
+                },
+                "filter":{
+                    "range":{
+                        "@timestamp":{
+                            "gte":cfg.elastic_search['start_date_time'],
+                            "lte":cfg.elastic_search['end_date_time']
                         }
                     }
                 }
