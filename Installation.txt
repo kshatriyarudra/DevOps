@@ -1,5 +1,1 @@
-install virtual environment: 'python -m venv venv'
-
-install elastic search: 'pip install elasticsearch'
-
-install logging: 'pip install logging'
+Install requirements.txt file using: 'pip install -r requirements.txt'
