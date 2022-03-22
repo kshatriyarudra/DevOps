@@ -1,6 +1,6 @@
 # This project is named as ELK Python Automation.
 
-# About Task:
+# About Project:
 
 1.Develop a module in Python to access Elastic Search DB and access the data.
 
